@@ -11,7 +11,7 @@
 
 ## About me
 
-I'm a first-year BCA student at Maharaja College, Jaipur — self-directing my own AI engineering curriculum alongside my degree. My target is an AI Engineer role at Mercari Japan by July 2028.
+I'm a first-year BCA student at Commerce College, Jaipur — self-directing my own AI engineering curriculum alongside my degree. My target is an AI Engineer role at Mercari Japan by July 2028.
 
 I don't wait for college to teach me things. I build projects, push daily, and document everything.
 
