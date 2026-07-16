@@ -12,7 +12,7 @@
 
 ---
 
-BCA student at Maharaja Government College, Jaipur — self-directing a structured AI engineering curriculum alongside my degree.
+BCA student at Commerece Government College, Jaipur — self-directing a structured AI engineering curriculum alongside my degree.
 Target: AI Engineer role in Japan by 2028.
 
 Not waiting for college to teach me what matters — I find real problems, build real solutions, and document everything.
