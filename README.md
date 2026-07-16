@@ -19,14 +19,21 @@ Not waiting for college to teach me what matters — I find real problems, build
 
 ---
 
-### 🔨 Current Focus
+### ✅ Completed Projects
+
+| Project | What it does | Stack |
+|---|---|---|
+| [mercari-price-analysis](https://github.com/Prashant-4527/mercari-price-analysis) | EDA + feature engineering on 50k Mercari listings — price distribution, category/brand price signals | Pandas, NumPy, Matplotlib, Seaborn |
+| [japan-trade-intelligence](https://github.com/Prashant-4527/japan-trade-intelligence) | Japan bilateral trade system — 6-country comparison, HHI risk modeling, forecast validated against real 2024–25 outcomes | Python, Pandas, NumPy |
+| [awesome-japan-tech-blogs](https://github.com/Prashant-4527/awesome-japan-tech-blogs) | Curated list of engineering blogs from Japan's top tech companies (Mercari, CyberAgent, LINE, DeNA & more) | Markdown, curation |
+
+### 🔨 In Progress
 
 | Project | Stack | Status |
 |---|---|---|
-| [japan-trade-intelligence](https://github.com/Prashant-4527/japan-trade-intelligence) | Python, Pandas, NumPy | 🟢 Active |
+| Flight Delay Prediction (Project #5) | Python, Scikit-learn, XGBoost | 🟢 Active — Day 1+ |
 | [mercaridb-mysql-30days](https://github.com/Prashant-4527/mercaridb-mysql-30days) | MySQL | 📅 Week 1/30 |
 | [DSA-Practice](https://github.com/Prashant-4527/DSA-Practice) | Python, LeetCode | 🔥 Daily |
-| [mercari-price-analysis](https://github.com/Prashant-4527/mercari-price-analysis) | Pandas, Seaborn, EDA | ✅ Complete |
 
 **Stack:** Python · Pandas · NumPy · Matplotlib/Seaborn · MySQL
 **Learning next:** Scikit-learn → XGBoost → FastAPI → Docker
