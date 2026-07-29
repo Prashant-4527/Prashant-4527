@@ -43,6 +43,6 @@ Not waiting for college to teach me what matters — I find real problems, build
 
 **Open to internships · collaborations · feedback**
 
-📧 YOUR_EMAIL_HERE · 🐦 YOUR_TWITTER_HERE
+
 
 </div>
