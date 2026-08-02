@@ -1,48 +1,63 @@
 <div align="center">
 
-<img src="YOUR_PHOTO_URL_HERE" width="150" style="border-radius: 50%"/>
-
 # Prashant Sulaniya
 
-**ML/AI Engineer in training · Targeting Japan · Building in public**
+**Machine Learning Engineer — production ML systems, from raw data to deployed APIs**
 
-📍 Jaipur, India
+[LinkedIn](https://www.linkedin.com/in/prashant-sulaniya-7a1710376/) · Jaipur, India
 
 </div>
 
 ---
 
-BCA student at Commerece Government College, Jaipur — self-directing a structured AI engineering curriculum alongside my degree.
-Target: AI Engineer role in Japan by 2028.
+I build ML systems end-to-end — not just notebooks. That means proper train/test discipline, model explainability, containerized deployment, and CI/CD: the parts of the job that don't show up on a leaderboard but do show up in production.
 
-Not waiting for college to teach me what matters — I find real problems, build real solutions, and document everything.
+Currently working on marketplace and economic-data problems, with a focus on ML engineering roles at Japan-based companies — Mercari among them — and in Germany.
 
 ---
 
-### ✅ Completed Projects
+## 🔭 Flagship Project
 
-| Project | What it does | Stack |
+### [Flight Delay Prediction System](https://github.com/Prashant-4527/flight-delay-prediction)
+
+End-to-end pipeline predicting 15+ minute arrival delays across 5.8M US domestic flights (DOT/BTS 2015), from raw data to a served, containerized model.
+
+- **Data:** 5.8M rows cleaned to 5.2M; class imbalance (4.4:1) handled via `scale_pos_weight`, not resampling
+- **Modeling:** Logistic Regression → Random Forest → XGBoost, tuned with 3-fold GridSearchCV → **AUC-ROC 0.696** (5-fold CV: 0.677 ± 0.0008)
+- **Explainability:** SHAP TreeExplainer for per-prediction reasoning, not just global feature importance
+- **Serving:** FastAPI + Pydantic validation, 8/8 tests passing, Dockerized, deployed via GitHub Actions CI/CD
+- **Interface:** Streamlit dashboard with a live OpenSky air-traffic overlay
+
+**[Live Dashboard](https://flight-delay-prediction-rbggjwfpafrechjrgbedoy.streamlit.app)** · **[API Docs](https://flight-delay-prediction-1.onrender.com/docs)** · **[Source](https://github.com/Prashant-4527/flight-delay-prediction)**
+
+`Python` `XGBoost` `SHAP` `FastAPI` `Docker` `GitHub Actions` `Streamlit`
+
+---
+
+## 📂 Other Projects
+
+| Project | Description | Stack |
 |---|---|---|
-| [mercari-price-analysis](https://github.com/Prashant-4527/mercari-price-analysis) | EDA + feature engineering on 50k Mercari listings — price distribution, category/brand price signals | Pandas, NumPy, Matplotlib, Seaborn |
-| [japan-trade-intelligence](https://github.com/Prashant-4527/japan-trade-intelligence) | Japan bilateral trade system — 6-country comparison, HHI risk modeling, forecast validated against real 2024–25 outcomes | Python, Pandas, NumPy |
-| [awesome-japan-tech-blogs](https://github.com/Prashant-4527/awesome-japan-tech-blogs) | Curated list of engineering blogs from Japan's top tech companies (Mercari, CyberAgent, LINE, DeNA & more) | Markdown, curation |
-
+| [japan-trade-intelligence](https://github.com/Prashant-4527/japan-trade-intelligence) | Bilateral trade intelligence system for Japan — 6-country comparison, HHI concentration-risk modeling, forecasts validated against real 2024–25 outcomes | Python, Pandas, NumPy |
+| [mercari-price-analysis](https://github.com/Prashant-4527/mercari-price-analysis) | EDA and feature engineering on 50K Mercari marketplace listings — price-distribution and category/brand pricing signals | Pandas, NumPy, Seaborn |
+| [mercaridb-mysql-30days](https://github.com/Prashant-4527/mercaridb-mysql-30days) | Applied MySQL project modeled on Mercari's schema — query design, indexing, normalization | MySQL |
+| [awesome-japan-tech-blogs](https://github.com/Prashant-4527/awesome-japan-tech-blogs) | Curated list of engineering blogs from Japan's top tech companies (Mercari, CyberAgent, LINE, DeNA, and more) | Markdown / curation |
 
 ---
 
-### 🗺️ Roadmap
+## 🛠️ Stack
 
-`2026` EDA + Core ML fundamentals → `2027` Deep Learning, LangChain, METI IPA application → `2028` Apply to ML roles in Japan
+**Languages:** Python, SQL
+**ML / Data:** Pandas, NumPy, Scikit-learn, XGBoost, SHAP, Matplotlib, Seaborn
+**Engineering:** FastAPI, Docker, GitHub Actions, Streamlit, Git
+**Currently learning:** Deep learning fundamentals, LLM fine-tuning, LangChain
 
 ---
 
 <div align="center">
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Prashant-4527&show_icons=true&theme=dark)](https://github.com/Prashant-4527)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Prashant-4527&layout=compact&theme=dark)](https://github.com/Prashant-4527)
 
-**Open to internships · collaborations · feedback**
-
-
+Open to ML engineering internships and collaboration — reach out on [LinkedIn](https://www.linkedin.com/in/prashant-sulaniya-7a1710376/)
 
 </div>
